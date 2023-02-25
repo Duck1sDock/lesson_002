@@ -22,3 +22,13 @@ secret_message = [
 # Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
 
 # TODO вывести расшифрованное сообщение
+first_word = secret_message[0]
+second_word = secret_message[1]
+third_word = secret_message[2]
+fourth_word = secret_message[3]
+fifth_word = secret_message[4]
+fourth_word = fourth_word[7:13]
+fifth_word = fifth_word[16:21]
+
+encrypte = first_word[3] + " " + second_word[9:13] + " "  + third_word[5:15:2] + " "  + fourth_word[::-1] + " "  + fifth_word[::-1]
+print(encrypte)
