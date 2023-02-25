@@ -42,3 +42,5 @@ dist['Paris']['Moscow'] = msk_prs
 dist['Paris']['London'] = msk_lndn
 
 pprint(dist)
+print()
+print(dist['London']['Paris'])
